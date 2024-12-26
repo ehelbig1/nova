@@ -4,18 +4,14 @@ metadata:
   name: authentik
   namespace: authentik
 spec:
-  releaseName: authentik
   chart:
     spec:
-      chart: authentik
+      chart: charts/authentik
       version: "2024.12.1"
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: authentik
   interval: 50m
-  install:
-    remediation:
-      retries: 3
   values:
     authentik:
         secret_key: "PleaseGenerateASecureKey"
