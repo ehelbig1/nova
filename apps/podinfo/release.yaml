@@ -27,3 +27,4 @@ spec:
         - host: podinfo.example.com
           paths:
             - path: /
+              pathType: ImplementationSpecific
