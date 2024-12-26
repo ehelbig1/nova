@@ -24,7 +24,7 @@ spec:
       enabled: true
       className: traefik
       hosts:
-        - host: podinfo.example.com
+        - host: podinfo.evanhelbig.com
           paths:
             - path: /
               pathType: ImplementationSpecific
