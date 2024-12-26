@@ -25,3 +25,5 @@ spec:
       className: traefik
       hosts:
         - host: podinfo.example.com
+          paths:
+            - path: /
