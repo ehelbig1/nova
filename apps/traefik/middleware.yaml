@@ -7,3 +7,4 @@ spec:
   forwardAuth:
     address: https://authentik
     trustForwardHeader: true
+    insecureSkipVerify: true
