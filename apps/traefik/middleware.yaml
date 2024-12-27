@@ -5,7 +5,7 @@ metadata:
   namespace: traefik
 spec:
   forwardAuth:
-    address: https://auth.evanhelbig.com
+    address: http://auth.evanhelbig.com:9000/outpost.goauthentik.io/auth/traefik
     trustForwardHeader: true
     authResponseHeaders:
         - X-authentik-username
