@@ -3,6 +3,6 @@ kind: Kustomization
 namespace: traefik
 resources:
   - namespace.yaml
+  - middleware.yaml
   - repository.yaml
   - release.yaml
-  - middleware.yaml
