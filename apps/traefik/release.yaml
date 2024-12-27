@@ -8,6 +8,7 @@ spec:
   chart:
     spec:
       chart: traefik
+      version: "3.2.3"
       sourceRef:
         kind: HelmRepository
         name: traefik
