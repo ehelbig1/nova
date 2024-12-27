@@ -5,7 +5,7 @@ metadata:
   namespace: traefik
 spec:
   forwardAuth:
-    address: https://authentik
+    address: https://auth.evanhelbig.com
     trustForwardHeader: true
     tls:
       insecureSkipVerify: true

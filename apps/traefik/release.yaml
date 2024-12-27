@@ -745,7 +745,9 @@ spec:
         # It follows the provider naming convention: https://doc.traefik.io/traefik/providers/overview/#provider-namespace
         #   - namespace-name1@kubernetescrd
         #   - namespace-name2@kubernetescrd
-        middlewares: []
+        middlewares:
+          - name: forward-auth
+            namespace: traefik
       metrics:
         # -- When using hostNetwork, use another port to avoid conflict with node exporter:
         # https://github.com/prometheus/prometheus/wiki/Default-port-allocations
